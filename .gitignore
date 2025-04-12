@@ -1,0 +1,43 @@
+# .gitignore (for the vscode-workspace-starter project itself)
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files (general)
+.idea/
+.vscode/  # Ignore VS Code state/cache within THIS project if you develop it using VS Code
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories (if you were to add script dependencies)
+# node_modules/
+# vendor/
+# venv/
+
+# Build artifacts (if any were generated for the script itself)
+# dist/
+# build/
+
+# Environment variables
+*.local
+.env
+.env.*
+!.env.example
+
+# Temporary files created by the script (just in case)
+*.tmp
